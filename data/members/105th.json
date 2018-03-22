@@ -1,0 +1,35 @@
+{
+  "n_th": 105,
+  "members": [
+    {
+      "name": "Bo-Ting Chiang",
+      "avatar": "Lego.jpg",
+      "mail": "qas612820704@gmail.com",
+      "intro": "Received Bachelor Degree in the Department of Applied Mathematics from National Choung Hsing University in Taichoung, Taiwan in 2016, and has working experience in IT project implementation for industry. His goals to be an M.S student in the Department of Computer Science, National Chiao Tung University are to broaden knowledge and to support working experience. His research interest includes Software Defined Networking."
+    },
+    {
+      "name": "Yuanhao Hsueh",
+      "avatar": "Shat.jpg",
+      "mail": "yuan415030@gmail.com",
+      "intro": "Received Bachelor Degree in the Department of Computer Science from National Chengchi University in Taipei, Taiwan in 2014, and has working experience in IT project implementation for industry. His goals to be an M.S student in the Department of Computer Science, National Chiao Tung University are to broaden knowledge and to support working experience. His research interest includes Software Defined Networking."
+    },
+    {
+      "name": "Yu-Kai Kao",
+      "avatar": "Gnome.jpg",
+      "mail": "kevinkao7960@gmail.com",
+      "intro": "Received Bachelor Degree in the Department of Computer Science from National Central University in Taoyuan, Taiwan in 2016, and has working experience in IT project implementation for industry. His goals to be an M.S student in the Department of Computer Science, National Chiao Tung University are to broaden knowledge and to support working experience. His research interest includes Software Defined Networking."
+    },
+    {
+      "name": "Ting-Hsin Chen",
+      "avatar": "Sister.jpg",
+      "mail": "pinkyiem98@gmail.com",
+      "intro": "Received Bachelor Degree in the Department of Industrial Engineering and Managemnet from National Chiao Tung University in Hsinchu, Taiwan in 2013, and has working experience in IT project implementation for industry. Her goals to be an M.S student in the Department of Computer Science, National Chiao Tung University are to broaden knowledge and to support working experience. Her research interest includes Software Defined Networking."
+    },
+    {
+      "name": "Wanchi Su",
+      "avatar": "Mei.jpg",
+      "mail": "qaz13579sherry@gmail.com",
+      "intro": "Received Bachelor Degree in the Department of Computer Science from National Chiao Tung University in Hsinchu, Taiwan in 2016, and has working experience in IT project implementation for industry. Her goals to be an M.S student in the Department of Computer Science, National Chiao Tung University are to broaden knowledge and to support working experience. Her research interest includes Software Defined Networking."
+    }
+  ]
+}

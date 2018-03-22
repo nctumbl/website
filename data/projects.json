@@ -1,0 +1,277 @@
+[
+  {
+    "category": "目前研究",
+    "content": [
+      {
+        "name": "高效能巨量資料分析系統之關鍵技術研發及其在電信流量管理之應用－子計畫三：高效能巨量資料分析系統之軟體定義網路技術研發及其在電信流量管理之應用(3/3)",
+        "id": "102N263",
+        "duration": "August 1, 2015 - July 31, 2016",
+        "supporter": "行政院國家科學委員會"
+      },
+      {
+        "name": "前瞻技術產學合作計畫－基於SDN和Cloud架構之無線/寬網技術與服務",
+        "id": "103C138",
+        "duration": "August 1, 2014 - July 31, 2017",
+        "supporter": "思銳科技股份有限公司"
+      },
+      {
+        "name": "",
+        "id": "101C179",
+        "duration": "August 1, 2015 - July 31, 2016",
+        "supporter": "英業達股份有限公司"
+      }
+    ]
+  },
+  {
+    "category": "已完成",
+    "content": [
+      {
+          "name": "超大型積體電路平行結構之可診斷設計與診斷策略",
+          "id": "81-0404-E-009-596-",
+          "duration": "February 1, 1992 - January 31, 1993",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "大面積超大型積體電路平行結構之整合珍斷與結構重組程序",
+          "id": "82-0404-E-009-391-",
+          "duration": "February 1, 1993 - January 31, 1994",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "多晶片模組可測試設計及測試方法",
+          "id": "83-0404-E-009-122-",
+          "duration": "February 1, 1994 - January 31, 1995",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "多晶片模組可測試設計及測試方法",
+          "id": "84-2215-E-009-055-",
+          "duration": "February 1, 1995 - July 31, 1995",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "非同步傳輸網路之高速交換鍵設計及實現",
+          "id": "85-2213-E-009-120-",
+          "duration": "August 1, 1995 - July 31, 1996",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "單晶片多處理機設計之研究－子計畫三：單晶片多處理機可程式實驗平台之設計與實現（I）",
+          "id": "86-2213-E-009-085-",
+          "duration": "August 1, 1996 - July 31, 1997",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "單晶片多處理機設計之研究－子計畫三：單晶片多處理機可程式實驗平台之設計與實現（II）",
+          "id": "87-2213-E-009-030-",
+          "duration": "August 1, 1997 - July 31, 1998",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "單晶片多處理機設計之研究－子計畫三：單晶片多處理機可程式實驗平台之設計與實現（Ⅲ）",
+          "id": "NSC88-2213-E-009-039",
+          "duration": "August 1, 1998 - July 31, 1999",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "前瞻性微處理機設計與製作－子計畫六:NSC98微處理機之晶片整合、驗證與CAD支援（Ⅲ）",
+          "id": "NSC87-2622-E-009-004",
+          "duration": "June 1, 1998 - May 31, 1999",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "多階無線區域網路之群播管理 (Ⅰ)",
+          "id": "NSC89-2213-E-009-059",
+          "duration": "August 1, 1999 - July 31, 2000",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "多階無線區域網路之群播管理 (Ⅱ)",
+          "id": "NSC88-2213-E-009-039",
+          "duration": "August 1, 2000 - July 31, 2001",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "卓越計畫: 無線網際網路 (Wireless Internet)",
+          "id": "NSC89-2213-E-009-059",
+          "duration": "April 1, 2000 - March 31, 2004",
+          "supporter": "教育部"
+      },
+      {
+          "name": "GPRS網路之高效率服務品質管理與適應式排程演算法",
+          "id": "NSC90-2213-E-009-206",
+          "duration": "August 1, 2001 - July 31, 2002",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "第三代行動網路中應用多協定標籤交換技術之研究",
+          "id": "NSC91-2213-E-009-067",
+          "duration": "August 1, 2002 - July 31, 2003",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "整合多頻道選擇與動態電源控制機制於IEEE 802.11無線隨意網路",
+          "id": "NSC92-2213-E-009-078",
+          "duration": "August 1, 2003 - July 31, 2004",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "無線感測網路之動態定位技術",
+          "duration": "August 1, 2004 - July 31, 2007",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "行動裝置之省電策略",
+          "duration": "August 1, 2003 - July 31, 2004",
+          "supporter": "聯發科技"
+      },
+      {
+          "name": "行動裝置之省電策略 (2)",
+          "duration": "August 1, 2004 - July 31, 2005",
+          "supporter": "聯發科技"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--總計畫 (1/3)",
+          "id": "NSC93-2213-E-002-121",
+          "duration": "August 1, 2004 - July 31, 2005",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--子計畫三：無線感測網路之動態定位技術 (1/3)",
+          "id": "NSC93-2213-E-009-124",
+          "duration": "August 1, 2004 - July 31, 2005",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "Low power, Software Design Technologies for Next Generation Mobile Devices",
+          "duration": "August 1, 2005 - July 31, 2006",
+          "supporter": "聯發科技"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--總計畫 (2/3)",
+          "id": "NSC94-2213-E-002-040",
+          "duration": "August 1, 2005 - July 31, 2006",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--子計畫三：無線感測網路之動態定位技術 (2/3)",
+          "id": "NSC94-2213-E-009-043",
+          "duration": "August 1, 2005 - July 31, 2006",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "寬頻電信等級開放平台建置計畫 (I)",
+          "id": "NSC94-2219-E-009-023",
+          "duration": "November 1, 2005 - October 31, 2006",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "Low Power Software Design Technologies for Next Generation Mobile Devices",
+          "duration": "August 1, 2006 - July 31, 2007",
+          "supporter": "聯發科技"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--總計畫 (3/3)",
+          "id": "NSC95-2221-E-002-060",
+          "duration": "August 1, 2006 - July 31, 2007",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "無線感測網路之關鍵技術及在社區照護之應用--子計畫三：無線感測網路之動態定位技術 (3/3)",
+          "id": "NSC95-2221-E-009-022",
+          "duration": "August 1, 2006 - July 31, 2007",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "寬頻電信等級開放平台建置計畫 (II)",
+          "id": "NSC96-2219-E-009-012",
+          "duration": "February 1, 2007 - January 31, 2008",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "高韌性同儕網路及其在即時多媒體上之應用--高韌性同儕網路及其在即時多媒體上之應用",
+          "id": "NSC96-2628-E-002-138-MY3",
+          "duration": "August 1, 2007 - July 31, 2010",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "高韌性同儕網路及其在即時多媒體上之應用--在異質性同儕網路下即時多媒體內容之有效搜尋及繞徑技術",
+          "id": "NSC96-2628-E-009-140-MY3",
+          "duration": "August 1, 2007 - July 31, 2010",
+          "supporter": "National Science Council"
+      },
+      {
+          "name": "基於無線感測網路之病人自控止痛整合資訊系統(1/3)",
+          "id": "97-3114-E-009-001-",
+          "duration": "November 1, 2008 - October 31, 2009",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "以安全,節能及遊憩為目的之車載網路系統－子計畫七：車載網路之同儕式多媒體串流服務(1/3)",
+          "id": "98-2219-E-009-008-",
+          "duration": "August 1, 2009 - July 31, 2010",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "基於無線感測網路之病人自控止痛整合資訊系統(2/3)",
+          "id": "98-2218-E-009-010-",
+          "duration": "November 1, 2009 - November 30, 2010",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "以安全,節能及遊憩為目的之車載網路系統－子計畫七：車載網路之同儕式多媒體串流服務(2/3)",
+          "id": "99-2219-E-009-006-",
+          "duration": "August 1, 2010 - July 31, 2011",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "基於無線感測網路之病人自控止痛整合資訊系統(3/3)",
+          "id": "99-2218-E-009-002-",
+          "duration": "November 1, 2010 - October 31, 2011",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "以安全,節能及遊憩為目的之車載網路系統－子計畫七：車載網路之同儕式多媒體串流服務(3/3)",
+          "id": "100-2219-E-009-004-",
+          "duration": "August 1, 2011 - July 31, 2012",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "具高效率資源與服務管理之高可信度遊戲雲端計算－總計畫",
+          "id": "99-2221-E-002-106-MY3",
+          "duration": "August 1, 2010 - July 31, 2013",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "具高效率資源與服務管理之高可信度遊戲雲端計算－子計畫三:建構於雲端計算環境之大型多人線上遊戲資源配置機制",
+          "id": "99-2221-E-009-081-MY3",
+          "duration": "August 1, 2010 - July 31, 2013",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "基於SDN的資料中心測試平台之高能源效率資源管理",
+          "id": "101C179",
+          "duration": "December 1, 2012 - November 30, 2013",
+          "supporter": "英業達股份有限公司"
+      },
+      {
+          "name": "高效能巨量資料分析系統之關鍵技術研發及其在電信流量管理之應用－子計畫三：高效能巨量資料分析系統之軟體定義網路技術研發及其在電信流量管理之應用(1/3)",
+          "id": "102N263",
+          "duration": "August 1, 2013 - July 31, 2014",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "高效能巨量資料分析系統之關鍵技術研發及其在電信流量管理之應用－子計畫三：高效能巨量資料分析系統之軟體定義網路技術研發及其在電信流量管理之應用(2/3)",
+          "id": "102N263",
+          "duration": "August 1, 2014 - July 31, 2015",
+          "supporter": "行政院國家科學委員會"
+      },
+      {
+          "name": "基於OpenFlow 1.3版之Flow Entry聚合技術",
+          "id": "101C179",
+          "duration": "August 1, 2014 - July 31, 2015",
+          "supporter": "英業達股份有限公司"
+      }
+    ]
+  }
+]

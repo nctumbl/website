@@ -1,0 +1,64 @@
+[
+  {
+    "category": "期刊論文",
+    "content": [
+      "L.S. Lee, K.C. Wang and Y.H. Hsu, 2015, 04, “A Dynamic MBS Zone Framework for Cost-Effective Inter-MBS Zone Handover in WiMAX Networks,” Telecommunication Systems. (SCI, EI)",
+      "Y.H. Hsu, K.C. Wang and Y.-C. Tseng, 2014, 11, “Efficient Cooperative Access Class Barring with Load Balancing and Traffic Adaptive Radio Resource Management for M2M Communications over LTE-A,” Computer Networks, Vol. 73, pp. 268–281. (SCI, EI)",
+      "K.C. Wang, C.-Y. Huang, L.-Y. Tsai and Y.-D. Lin, 2014, 11, “Behavior-based Botnet Detection in Parallel,” Security and Communication Networks, Vol. 7, Iss. 11, pp. 1849–1859. (SCI, EI)",
+      "S.F. Yang, T.H. Ku, A.K. Jeng, R.H. Jan, Y.C. Tseng, K.C. Wang and Y.J. Hu, 2012, 12 \"iPCA: An Integration Information System for Patient Controlled Analgesia using Wireless Techniques,\" International Journal of Ad Hoc and Ubiquitous Computing. (SCI) ",
+      "Y.L. Hsieh and K.C. Wang, 2012, 11, “Dynamic Overlay Multicast for Live Multimedia Streaming in Urban VANETs,” Computer Networks, Vol. 56, pp. 3609-3628. (SCI, EI)",
+      "Yuh-Jyh Hu, Tien-Hsiung Ku, Rong-Hong Jan, Kuochen Wang, Yu-Chee Tseng and Shu-Fen Yang, 2012, “Decision Tree-Based Learning to Predict Patient Controlled Analgesia Consumption and Readjustment,” BMC Medical Informatics and Decision Making. (SCI)",
+      "H.C. Shih and K.C. Wang, 2012, 02, “An Adaptive Hybrid Dynamic Power Management Algorithm for Mobile Devices,”Computer Networks, Vol. 56, pp. 548-565. (SCI, EI)",
+      "K.C. Wang, C.-Y. Huang, S.-J. Lin and Y.D. Lin, 2011, 10, “A Fuzzy Pattern-based Filtering Algorithm for Botnet Detection,” Computer Networks. Vol. 55, pp. 3275-3286. (SCI, EI)",
+      "S.H. Shee, T.C. Chang, K.C. Wang and Y.L. Hsieh, 2011, 07, “Efficient Color-theory-based Dynamic Localization for Mobile Wireless Sensor Networks,” Wireless Personal Communications. (SCI Expanded, EI)",
+      "C.-T. Tsai, R.-H. Jan and K.C. Wang, 2010, 03, “Optimal Redundancy Allocation for High Availability Routers,” International Journal of Communication Systems, Vol. 23, pp. 1581-1599. (SCI Expanded) ",
+      "L.S. Lee and K.C. Wang, 2010, 02, “Design and Analysis of a Network Assisted Fast Handover Scheme for IEEE 802.16e Networks,” IEEE Transactions on Vehicular Technology, Vol. 59, No. 2, pp. 869-883. (SCI, EI)",
+      "C.-T. Tsai, R.-H. Jan and K.C. Wang, 2010, 01, “Design and Implementation of High Availability OSPF Router,” Journal of Information Science and Engineering, Vo. 26, pp. 2173-2198. (SCI Expanded, EI)",
+      "C.C. Yang, K.C. Wang, M.H. Lin and P.C. Lin, 2009, 01, “Energy Efficient Intra-Task Dynamic Voltage Scaling for Realistic CPUs of Mobile Devices,” Journal of Information Science and Engineering, Vol. 25, No. 1, pp. 251-272. (SCI Expanded, EI) ",
+      "T.J. Chang, K.C. Wang and Y.L. Hsieh, 2008, 02, “A Color-theory-based Energy Efficient Routing Algorithm for Mobile Wireless Sensor Networks,” Computer Networks, Vol. 52, No. 3, pp. 531-541. (SCI, EI)",
+      "K.N. Tseng, K.C. Wang and H.C. Shih, 2007, 11, “Enhancing Fair Scheduling for IEEE 802.11e Wireless LANs,” Journal of Information Science and Engineering, Vol. 23, No, 6, pp. 1707-1721. (SCI Expanded, EI)",
+      "C.H. Shih, K.C. Wang and H.C. Shih, 2006, 07 “An Adaptive Bluetooth Packet Selection and Scheduling Scheme in Interference Environments,” Computer Communications, pp. 2048-2095. (SCI, EI) ",
+      "H.H. Chen, K.C. Wang and H.C. Shih, 2006, 09, “A WAP-based and Push-enabled Mobile Internet Application Platform,” Journal of Information Science and Engineering, pp. 1279-1293. (SCI Expanded, EI) ",
+      "T.H. Lin, K.C. Wang, and A.Y. Liu, 2005, 06 “An Efficient Load Balancing Strategy for Scalable WAP Gateways,” Computer Communications, Vol. 28, Issue 9, pp. 1028-1037. (SCI, EI)",
+      "L.M. Wu, K.C. Wang and C.Y. Chiu, 2004, 01, “A BNF-based Automatic Test Program Generator for Compatible Microprocessor Verification,” ACM Transactions on Design Automation of Electronic Systems, Vol. 1, No. 9, pp. 105-132. (SCI)",
+      "D.S. Chien, K.C. Wang and A.Y. Liu, 2003, 03, “Efficient Web Content Adaptation for Mobile Client Devices in Wireless Internet,” Journal of Computers, Vol. 15, No. 1, pp. 42-56.",
+      "K.C. Wang and L.S. Lee, 2001, 07 “Design and Analysis of QoS Supported Frequent Handover Schemes in Micro-Cellular ATM Networks,” IEEE Transactions on Vehicular Technology, Vol. 50, Issue 4, pp. 942-953. (SCI, EI)",
+      "K.C. Wang and H.J. Wang, 2001, 03, “Design and Analysis of an ATM Switch with Priority Discarding Scheme,” Journal of Information Science and Engineering, Vol. 17, No. 2, pp. 229-244. (SCI Expanded, EI)",
+      "K.C. Wang and M.H. Cheng, 2000, 07, “Design and Analysis of a Gble Multicast ATM Switch,” IEEE Transactions on Communications, Vol. 48, No. 7, pp. 1091-1094. (SCI, EI)",
+      "W.D. Tseng and K.C. Wang, 2000, 04 “Fault Coverage and Defect Level Estimation Models for Partially Testable MCMs,” IEE Proceedings – Circuits, Devices and Systems, Vol. 147, No. 2, pp. 119-124. (SCI, EI)",
+      "K.C. Wang and J.M. Liao, and J.M. Chen, 2000, 02, “Intelligent Location Tracking Strategy in PCS,” IEE Proceedings – Communications, Vol. 147, No. 1, pp. 63-68. (SCI, EI)",
+      "K.C. Wang and A.Y. Liu, 2000, 02 “Design and Performance Evaluation of a Pipelined One-Sided Crossbar Switches,” Journal of the Chinese Institute of Electrical Engineering, Vol. 7, No. 1, pp. 29-40. (SCI Expanded, EI)",
+      "K.C. Wang and C.C. Wang, 2000, 01, “A Cost-Effective Forward Recovery Checkpointing Scheme in Multiprocessor Systems,” Journal of Information Science and Engineering, Vol. 16, No. 1, pp. 65-80. (SCI Expanded, EI)",
+      "K.C. Wang and J. Huey, 1999, “A Cost Effective Distributed Location Management Strategy for Wireless Networks,” ACM Wireless Networks, Vol. 5, pp. 287-297. (SCI, EI)",
+      "K.C. Wang and F.M. Lin, 1999, 07 “Design and Implementation of a Fault Tolerant ATM Switch,” Journal of Information Science and Engineering, Vol. 15, No. 4, pp. 521-541. (SCI Expanded, EI)",
+      "K.C. Wang and J.H. Chen, 1999, 07, “An Efficient Probabilistic Dynamic Multicast Routing in ATM Networks,” Journal of Information Science and Engineering, Vol. 15, No. 4, pp.485-504. (SCI Expanded, EI)",
+      "W.D. Tseng and K.C. Wang, 1999, 03, “Fuzzy-Based CMOS Circuit Partitioning in Built-In Current Testing,” IEEE Transactions on VLSI Systems, Vol. 7, No. 1, pp. 116-120. (SCI, EI)",
+      "K.C. Wang and C.C. Wu, 1999, 02, “A New Goniometry-based Routing Algorithm for ATM Networks,” Journal of the Chinese Institute of Electrical Engineering, Vo. 6, No. 1, pp. 51-61. (SCI Expanded, EI)",
+      "K.C. Wang and C.K. Wu, 1999, 01, “Design and Implementation of Fault Tolerant and Cost-Effective Crossbar Switches for Multiprocessor Systems,” IEE Proceedings – Computers and Digital Techniques, Vol. 146, No. 1, pp. 50-56. (SCI, EI)",
+      "K.C. Wang and J.W. Lin, 1995, 12, “Integrated Diagnosis and Reconfiguration Process for Yield Enhancement of Large Area VLSI and WSI Arrays,” Journal of Microelectronic Systems Integration, Vol. 3(4), pp. 259-268.",
+      "K.C. Wang and S.Y. Kuo, 1994, 06, “System-level Optimal Group Diagnosis Procedures for Defect Tolerant VLSI and WSI Arrays,” Journal of Microelectronic Systems Integration, Vol. 2(2), pp. 81-93.",
+      "K.C. Wang and W.D. Tseng, 1993, 12, “Diagnosable Designs and Diagnostic Strategies of Large Area VLSI/WSI Arrays,” Journal of Microelectronic Systems Integration, Vol. 1(4), pp. 259-272.",
+      "K.C. Wang and S.Y. Kuo, 1992, 02, “Computer-Aided Modeling and Evaluation of Reconfigurable VLSI Processor Arrays with VHDL,” IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, pp. 185-197. (SCI)",
+      "S.Y. Kuo and K.C. Wang, 1990, “Fault Diagnosis in Reconfigurable VLSI and WSI Processor Arrays,” Journal of VLSI Signal Processing, Vol. 2, pp. 173-187. (SCI, EI)"
+    ]
+  },
+  {
+    "category": "專書及專書論文",
+    "content": [
+      "P.C. Lin and K.C. Wang, 2010, “An Efficient Low Power Scheduling for Heterogeneous Dual-Core Embedded Real-Time Systems,” A Book Chapter, in Advances in Energy Research, Vol. 1, pp. 241-257, Nova Science Publishers.",
+      "Y.Z. Wu and K.C. Wang, 2009, “An Efficient Power Saving MAC Mechanism for VoIP over IEEE 802.11e WLANs,” Nova Science Publishers,” A Book Chapter, in Mobile Computing Research and Applications, pp. 191-203, Nova Science Publishers.",
+      "Y.L. Ko, K.C. Wang and H.C. Shih, 2007, “An Efficient Mobile-Agent-Based Platform for Dynamic Service Provisioning in 3G/UMTS,” A Book Chapter, in Wireless Communications Research Trends, pp. 349-370, Nova Science Publishers.",
+      "K.C. Wang and C.T. Chang, 2002, “An Intelligent On-Demand Multicast Routing Protocol in Ad Hoc Networks,” A Book Chapter, in The Handbook of Ad Hoc Wireless Networks, pp. 20-1 – 20-15, CRC Press. (EI)"
+    ]
+  },
+  {
+    "category": "專利",
+    "content": [
+      "伺服器系統與使用者註冊方法，台灣專利，徐偉原、王國禎、簡榮宏、張仲儒，I397296，2013/5/21 ~ 2028/12/17",
+      "電源管理系統及其方法，台灣專利，施宏政、王國禎， I428736，2014/3/1 ~ 2031/5/30",
+      "DECENTRALIZED STRUCTURED PEER-TO-PEER NETWORK AND LOAD BALANCING METHODS THEREOF，徐崇騵、王國禎、施宏政，US 8,443,086 B2，2011/6/22 ~ 2032/1/13",
+      "應用增強型窗口方法和相互交替型式於純量乘法演算法之橢圓形曲線加密方法，葉宏男、王國禎、簡榮宏，I444028，2014/7/1 ~ 2031/12/22",
+      "METHOD OF ELLIPTIC CURVE CRYPTOGRAPHY USING EW-MOF ON SCALAR MULTIPLICATION，葉宏男、王國禎、簡榮宏，US 8,666,076 B2, 2012/4/13 ~ 2032/8/24"
+    ]
+  }
+]

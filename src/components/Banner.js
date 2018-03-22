@@ -8,6 +8,7 @@ const BannerWrapper = styled.div`
   
   font-family: Arvo;
   text-align: center;
+  text-shadow: 1px 1px #888888;
 `
 
 const BannerH1 = styled.h1`
