@@ -8,7 +8,9 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "bootstrap": "4.0.0",
     "gatsby": "^1.9.238",
-    "gatsby-link": "^1.6.39"
+    "gatsby-link": "^1.6.39",
+    "reactstrap": "^5.0.0-beta.3"
   }
 }
