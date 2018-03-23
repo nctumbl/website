@@ -60,3 +60,7 @@ typings/
 .cache/
 public
 yarn-error.log
+
+# none used data
+**/*_NONE_USED/
+*_NONE_USED.*
