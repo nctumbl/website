@@ -5,6 +5,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
+    "deploy": "rm -r public/ || true && gatsby build --prefix-paths && sh ./tools/deploy-to-mbl.sh",
     "serve": "gatsby serve"
   },
   "dependencies": {
