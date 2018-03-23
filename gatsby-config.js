@@ -28,6 +28,13 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `resources`,
+        path: `${__dirname}/static/resources/`,
+      },
+    },
     `gatsby-transformer-json`
   ],
 };
