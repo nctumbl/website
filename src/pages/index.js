@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
-import Link from 'gatsby-link'
+import Link, { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 
 import Banner from '../components/Banner'
@@ -19,14 +19,14 @@ const Circle = styled.div`
 
 `
 
-const LinkedInfo = styled(Link)`
+const Info = styled.div`
   margin: auto;
-
+  
   font-weight: bold;
   text-align: center;
 `
 
-const StyledRow = styled(Row)`
+const RowWCircleBg = styled(Row)`
   &::before {    
     position: absolute;
     top: calc(200px / 2);
@@ -41,6 +41,16 @@ const StyledRow = styled(Row)`
   }
 `
 
+const FlexCol = styled(Col)`
+  display: flex;
+`
+
+const FlexColText = styled.div`
+  margin: auto;
+
+  text-align: center;
+`
+
 export default () => (
   <div>
     <Banner
@@ -52,43 +62,85 @@ export default () => (
         "成立於1991年"
       ]}
     />
-    <h1 className="text-deepLinkedinfo text-center">Research Interests</h1>
-    <Container style={{position: 'relative'}}>
-      <StyledRow>
+    <h1 className="text-deepinfo text-center">Research Interests</h1>
+    <Container className="text-white" style={{position: 'relative'}}>
+      <RowWCircleBg>
         <Col sm={{offset: 3, size: 6}}>
           <CircleWrapper>
             <Circle className="bg-danger">
-              <LinkedInfo className="text-white" to="/projects/">
+              <Info>
                 <span>
                   Internet of Things<br/>
                   (IoTs)
                 </span>
-              </LinkedInfo>
+              </Info>
             </Circle>
           </CircleWrapper>
         </Col>
         <Col sm={6}>
           <CircleWrapper>
             <Circle className="bg-primary">
-              <LinkedInfo className="text-white" to="/projects/">SDN / NFV / 5G</LinkedInfo>
+              <Info>SDN / NFV / 5G</Info>
             </Circle>
           </CircleWrapper>
         </Col>
         <Col sm={6}>
           <CircleWrapper>
             <Circle className="bg-warning">
-              <LinkedInfo className="text-white" to="/projects/">Big Data</LinkedInfo>
+              <Info>Big Data</Info>
             </Circle>
           </CircleWrapper>
         </Col>
         <Col sm={{offset: 3, size: 6}}>
           <CircleWrapper>
             <Circle className="bg-success">
-              <LinkedInfo className="text-white" to="/projects/">Cloud / Fog Computing</LinkedInfo>
+              <Info>Cloud / Fog Computing</Info>
             </Circle>
           </CircleWrapper>
         </Col>
-      </StyledRow>
+      </RowWCircleBg>
     </Container>
+    <div id="sdn" className="bg-light" style={{ padding: '30px 0' }}>
+      <Container>
+        <Row>
+          <FlexCol sm>
+            <FlexColText><h3><b>Software Defined Iot Networking with 3i</b></h3></FlexColText>
+          </FlexCol>
+          <Col sm>
+            <img src={withPrefix("/images/home/iotnetwork.png")} className="img-fluid" />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+    <div style={{ padding: '30px 0' }}>
+      <Container>
+        <Row>
+          <Col sm>
+            <img src={withPrefix("/images/home/5G.png")} className="img-fluid" />
+          </Col>
+          <FlexCol sm>
+            <FlexColText className="text-left">
+              <h3><b>5G / Heterogeneous Networking</b></h3>
+              <ul>
+                <li>Linear Accelerator Assisted mmWave Link Adaptation</li>
+                <li>Indoor Localization using mmWare</li>
+              </ul>
+            </FlexColText>
+          </FlexCol>
+        </Row>
+      </Container>
+    </div>
+    <div className="bg-light" style={{ padding: '30px 0' }}>
+      <Container>
+        <Row>
+          <FlexCol sm>
+            <FlexColText><h3><b>WiGiG / WiFi / LTE-U Integrated Radio Access</b></h3></FlexColText>
+          </FlexCol>
+          <Col sm>
+            <img src={withPrefix("/images/home/radio-access.png")} className="img-fluid" />
+          </Col>
+        </Row>
+      </Container>
+    </div>
   </div>
 )

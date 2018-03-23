@@ -25,7 +25,7 @@ export default ({
     <InfoBox className="text-deepinfo">
     { title && <h1><b>{ title }</b></h1> }
     { subtitle && <h4>{ subtitle }</h4> }
-    { contents && contents.map(c => <p>{c}</p>)}
+    { contents && contents.map((c, i) => <p key={i}>{c}</p>)}
     </InfoBox>
   </BannerWrapper>
 )
