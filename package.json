@@ -13,6 +13,7 @@
     "gatsby-link": "^1.6.39",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-json": "^1.0.16",
+    "react-helmet": "^5.2.0",
     "react-icons": "^2.2.7",
     "reactstrap": "^5.0.0-beta.3",
     "recompose": "^0.26.0",
