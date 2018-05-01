@@ -43,6 +43,7 @@ const RowWCircleBg = styled(Row)`
 
 const FlexCol = styled(Col)`
   display: flex;
+  text-align: center;
 `
 
 const FlexColText = styled.div`
@@ -63,43 +64,16 @@ export default () => (
       ]}
     />
     <h1 className="text-deepinfo text-center">Research Interests</h1>
-    <Container className="text-white" style={{position: 'relative'}}>
-      <RowWCircleBg>
-        <Col sm={{offset: 3, size: 6}}>
-          <CircleWrapper>
-            <Circle className="bg-danger">
-              <Info>
-                <span>
-                  Internet of Things<br/>
-                  (IoTs)
-                </span>
-              </Info>
-            </Circle>
-          </CircleWrapper>
-        </Col>
-        <Col sm={6}>
-          <CircleWrapper>
-            <Circle className="bg-primary">
-              <Info>SDN / NFV / 5G</Info>
-            </Circle>
-          </CircleWrapper>
-        </Col>
-        <Col sm={6}>
-          <CircleWrapper>
-            <Circle className="bg-warning">
-              <Info>Big Data</Info>
-            </Circle>
-          </CircleWrapper>
-        </Col>
-        <Col sm={{offset: 3, size: 6}}>
-          <CircleWrapper>
-            <Circle className="bg-success">
-              <Info>Cloud / Fog Computing</Info>
-            </Circle>
-          </CircleWrapper>
-        </Col>
-      </RowWCircleBg>
-    </Container>
+    <div style={{ padding: '30px 0' }}>
+      <Container>
+        <Row>
+          <Col sm style={{ textAlign: 'center' }}>
+            <img src={withPrefix("/images/home/Research.png")} className="img-fluid" />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+
     <div id="sdn" className="bg-light" style={{ padding: '30px 0' }}>
       <Container>
         <Row>
@@ -142,5 +116,6 @@ export default () => (
         </Row>
       </Container>
     </div>
+    
   </div>
 )
