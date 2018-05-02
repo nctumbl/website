@@ -36,6 +36,7 @@ module.exports = {
         path: `${__dirname}/static/resources/`,
       },
     },
-    `gatsby-transformer-json`
+    `gatsby-transformer-json`,
+    `gatsby-plugin-styled-components`
   ],
 };
