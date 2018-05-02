@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 import {
   Container, Row, Col,
-  TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText
+  TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText,
+  ListGroup, ListGroupItem, ListGroupItemHeading, ListGroupItemText
 } from 'reactstrap'
 import { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
+import { startCase } from 'lodash';
 
 import Banner from '../components/Banner'
 import { log } from 'util';
 
 const Avatar = styled.img`
+  min-height: 300px;
   max-height: 300px;
 `
 
@@ -34,12 +37,38 @@ const NthRow = ({ nthMembers }) => (
   </Row>
 )
 
+const Profile = ({ id, name, avatar = "", mail }) => {
+  const avatarSrc = avatar
+    ? `/images/members/phd/${avatar}`
+    : `/images/members/default.jpg`
+
+  return (
+    <Col xs={12} sm={3} key={id}>
+      <Avatar
+        src={withPrefix(avatarSrc)}
+        className="img-thumbnail"
+        style={{ marginBottom: '20px' }}
+      />
+      <h5><b>{ name }</b></h5>
+      <p className="text-truncate">
+        <b>Mail</b>
+        { mail &&
+            <a href={`mailto:${mail}`}> { mail }</a>
+        }
+        { !mail &&
+          ' None'
+        }
+      </p>
+    </Col>
+  )
+}
+
 class MembersPage extends Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      activeTab: '1'
+      activeTab: 'Current Member'
     }
 
     this.toggle = this.toggle.bind(this)
@@ -50,10 +79,12 @@ class MembersPage extends Component {
   }
 
   render() {
-    const memberEdges = this.props.data.members.edges
+    const { members, phds, alumnis, inServices } = this.props.data;
+
+    const memberEdges = members.edges
     const otherMemberEdges = memberEdges.slice() // copy
     const currentMemberEdges = otherMemberEdges.splice(0, 2)
-  
+
     return (
       <div>
         <Banner
@@ -91,25 +122,26 @@ class MembersPage extends Component {
           <h4 className="text-center"><b>學生 / Students</b></h4>
           <Container>
             <Nav tabs>
-              <NavItem>
-                <NavLink
-                  className={this.state.activeTab === '1' && "active" || ""}
-                  onClick={() => { this.toggle('1'); }}
-                >
-                  Current Member
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  className={this.state.activeTab === '2' && "active" || ""}
-                  onClick={() => { this.toggle('2'); }}
-                >
-                  Graduated
-                </NavLink>
-              </NavItem>
+             {[
+                "Current Member",
+                "Graduated",
+                "Phds",
+                "In Services",
+                "Alumnis"
+              ].map( type => (
+                <NavItem key={type}>
+                  <NavLink
+                    className={this.state.activeTab === `${type}` && "active" || ""}
+                    onClick={() => { this.toggle(type); }}
+                  >
+                    { type }
+                  </NavLink>
+                </NavItem>
+              ))
+             }
             </Nav>
             <TabContent activeTab={this.state.activeTab}>
-              <TabPane tabId="1">
+              <TabPane tabId="Current Member">
               <Row>
               { currentMemberEdges
                 .map(edge => edge.node)
@@ -121,13 +153,48 @@ class MembersPage extends Component {
               }
               </Row>
               </TabPane>
-              <TabPane tabId="2">
+              <TabPane tabId="Graduated">
               { otherMemberEdges
                 .map(edge => edge.node)
                 .map(node => (
                   <NthRow nthMembers={node} key={node.n_th} />
                 ))
               }
+              </TabPane>
+              <TabPane tabId="Phds">
+                <Row className="text-center" style={{ paddingTop: '20px' }}>
+                { phds.edges
+                  .map(edge => edge.node)
+                  .map(node => (
+                    <Profile { ...node } key={node.id} />
+                  ))
+                }
+                </Row>
+              </TabPane>
+              <TabPane tabId="In Services">
+              <Row className="text-center" style={{ paddingTop: '20px' }}>
+                { inServices.edges
+                  .map(edge => edge.node)
+                  .map(node => (
+                    <Profile { ...node } key={node.id} />
+                  ))
+                }
+                </Row>
+              </TabPane>
+              <TabPane tabId="Alumnis">
+                <ListGroup>
+                { alumnis.edges
+                  .map(edge => edge.node)
+                  .map(({ id, n_th, members }) => (
+                    <ListGroupItem key={id}>
+                      <ListGroupItemHeading>{n_th}th</ListGroupItemHeading>
+                      <ListGroupItemText>
+                        { members.join(', ') }
+                      </ListGroupItemText>
+                    </ListGroupItem>
+                  ))
+                }
+                </ListGroup>
               </TabPane>
             </TabContent>
           </Container>
@@ -154,6 +221,34 @@ export const query = graphql`
             mail
             intro
           }
+        }
+      }
+    }
+    phds: allPhdJson {
+      edges {
+        node {
+          id
+          name
+          avatar
+          mail
+        }
+      }
+    }
+    alumnis: allAlumniJson {
+      edges {
+        node {
+          id
+          n_th
+          members
+        }
+      }
+    }
+    inServices: allInServiceJson {
+      edges {
+        node {
+          id
+          name
+          mail
         }
       }
     }
