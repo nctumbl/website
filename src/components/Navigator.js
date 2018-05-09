@@ -43,7 +43,7 @@ class Navigator extends React.Component {
   }
   render() {
     return (
-      <Navbar color="deepinfo" dark expand="md">
+      <Navbar color="deepinfo" dark expand="lg">
         <NavBrand to="/" className="navbar-brand">MBL</NavBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
