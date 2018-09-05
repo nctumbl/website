@@ -18,7 +18,7 @@ const ResourcesPage = ({ data }) => (
         { data.resources.edges
           .map(edge => edge.node)
           .map((node, i) => (
-            <ListGroupItem tag="button" action key={i}>
+            <ListGroupItem action key={i}>
               <Row>
                 <Col xs={11}>{i}. {node.name}</Col>
                 <Col xs={1}>
