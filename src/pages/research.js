@@ -4,19 +4,26 @@ import { withPrefix } from 'gatsby-link'
 import styled from 'styled-components'
 import TiDocText from 'react-icons/lib/ti/document-text'
 
-const PDF = styled.iframe`
-  margin-top: 30px;
+const PDF = styled.object.attrs({
+  type: "application/pdf"
+})`
+  margin: 0;
   width: 100%;
-  min-height: 600px;
+  height: calc(100vh - 84px);
 `
 
 const ResearchPage = () => (
-  <Container className="text-center">
-    <PDF
-      src={withPrefix('/resources/MBL-researchIntro.pdf')}
-    />
-    <h3><a href={withPrefix('/resources/MBL-researchIntro.pdf')} target="_blank"><TiDocText/> Open In New Tab</a></h3>
-  </Container>
+  <PDF
+    data={withPrefix('/resources/MBL-researchIntro.pdf')}
+  >
+    <h3 className="text-center" style={{ marginTop: '2em'}}>
+      <a
+        href={withPrefix('/resources/MBL-researchIntro.pdf')} target="_blank"
+      >
+        <TiDocText/>Open Research PDF
+      </a>
+    </h3>
+  </PDF>
 )
 
 export default ResearchPage
